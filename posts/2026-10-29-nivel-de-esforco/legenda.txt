@@ -1,0 +1,10 @@
+Você sabia que dá para escolher o quanto o Claude “pensa”? 🧠
+
+O nível de esforço controla quanto raciocínio o modelo usa em cada tarefa. O Opus 5.5 tem cinco níveis (baixo, médio, alto, muito alto e máximo), cada um com uma finalidade.
+
+💡 Dica: se não estiver tendo o resultado que esperava, tente aumentar o esforço antes de trocar para um modelo mais poderoso.
+
+Arraste para ver quando usar cada nível. 👉
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #Opus #InteligenciaArtificial #ClaudeCode #Dicas #ZeniteWeb

@@ -1,0 +1,16 @@
+Novidades do Claude no último mês! ✨
+
+Uma nova família de modelos e várias ferramentas novas:
+🧠 Claude 5.5: Opus, Sonnet e Haiku, um para cada tipo de trabalho
+📄 Artifacts: documentos, apresentações, designs e painéis em qualquer conversa
+🗂️ Projetos no Claude Code (beta): todas as conversas num só lugar
+⏳ O Claude Code termina a etapa atual mesmo quando você atinge o limite
+🧩 Mods: seus próprios comandos e painéis no Claude Code
+🚗 Claude no CarPlay
+📊 Claude para Google Workspace (beta): Docs, Planilhas e Apresentações
+
+Arraste para ver cada novidade. 👉
+Qual você vai testar primeiro? Conta nos comentários!
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #InteligenciaArtificial #ClaudeCode #Novidades #Produtividade #ZeniteWeb
