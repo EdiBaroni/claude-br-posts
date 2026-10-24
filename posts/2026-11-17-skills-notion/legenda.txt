@@ -1,0 +1,15 @@
+Skills do Claude + fluxos do Notion. 🤝
+
+Com as Skills do Notion, o Claude:
+📋 Transforma especificações de produto em planos de implementação
+🗓️ Prepara pautas e materiais de reunião
+🧠 Constrói sua base de conhecimento a partir das conversas
+📄 Cria relatórios reunindo informações de todo o workspace
+
+Comece em 3 passos:
+1. Baixe as skills do Notion em clau.de/skills-for-notion
+2. Envie os arquivos .zip para o Claude, na área de Skills das configurações
+3. Peça ajuda ao Claude com o seu trabalho no Notion
+
+Fonte: Anthropic (@claudeai) e Notion (@notionhq) · Tradução e adaptação não oficial
+#Claude #Notion #Skills #Produtividade #ZeniteWeb

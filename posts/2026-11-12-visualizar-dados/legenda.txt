@@ -1,0 +1,12 @@
+Você não precisa ser técnico para criar coisas técnicas. 📊
+
+Com os Artifacts, qualquer pessoa transforma uma planilha em gráficos interativos:
+🎯 Descreva o que quer descobrir e envie a planilha, mesmo bagunçada
+⚡ Veja o Claude montar o painel em tempo real
+🎨 Peça mudanças com palavras simples, como trocar as cores ou criar filtros
+🔍 Use os filtros para explorar os dados a fundo
+
+Crie o seu em claude.ai/artifacts
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #Dados #InteligenciaArtificial #Produtividade #ZeniteWeb

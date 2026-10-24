@@ -1,0 +1,12 @@
+Com as Skills, o Claude vira seu parceiro especializado em qualquer projeto, inclusive de design. 🎨
+
+Como fazer:
+⚙️ Ative a execução de código e a criação de arquivos nas configurações
+🧩 Ative a skill theme-factory, que dá estilo aos arquivos que o Claude cria
+✨ Crie um tema próprio, descrevendo como quer ou enviando exemplos
+🖥️ Pronto: todos os seus artifacts passam a seguir o mesmo visual
+
+Explore as Skills em claude.ai
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #Skills #Design #InteligenciaArtificial #ZeniteWeb

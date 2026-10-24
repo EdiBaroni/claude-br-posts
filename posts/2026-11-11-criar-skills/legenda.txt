@@ -1,0 +1,13 @@
+As Skills são como um livro de receitas: você guarda o seu jeito favorito de fazer as coisas, e o Claude segue sozinho. 📖
+
+Como criar a sua em 3 passos:
+1️⃣ Descreva a Skill: para que serve e quais documentos ela deve consultar
+2️⃣ Construa a Skill: o Claude guia você, sem editar arquivos à mão
+3️⃣ Use a Skill: o Claude aplica sempre que fizer sentido
+
+No exemplo, uma pizzaria cria uma Skill com o guia da marca, e o Claude passa a escrever as legendas no tom certo. 🍕
+
+Quais Skills você está usando? Conta nos comentários!
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #Skills #InteligenciaArtificial #Produtividade #ZeniteWeb
