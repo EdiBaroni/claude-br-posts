@@ -1,0 +1,11 @@
+Cada modelo do Claude foi feito para um tipo de trabalho. Use este guia para saber quando usar cada um. 📌
+
+🔥 Fable: o trabalho mais difícil
+🧠 Opus: tarefas complexas e especializadas
+✍️ Sonnet: o trabalho do dia a dia
+⚡ Haiku: respostas instantâneas
+
+Salve este post para consultar quando precisar!
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #InteligenciaArtificial #Dicas #Produtividade #ZeniteWeb

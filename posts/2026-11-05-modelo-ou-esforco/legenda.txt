@@ -1,0 +1,13 @@
+Devo trocar o modelo ou aumentar o esforço? 🤔
+
+Uma regra simples:
+⚙️ O esforço controla quanto trabalho o Claude está disposto a fazer.
+🧠 O modelo define as capacidades fixas do Claude.
+
+Quer que ele trabalhe com mais cuidado e profundidade? Aumente o esforço.
+O problema é especialmente difícil? Aí vale trocar o modelo.
+
+Arraste para ver como modelo e esforço se combinam. 👉
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #InteligenciaArtificial #Dicas #Produtividade #ZeniteWeb
