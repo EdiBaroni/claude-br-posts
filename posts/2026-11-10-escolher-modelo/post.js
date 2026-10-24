@@ -16,7 +16,7 @@ const card = (name, inner, pos = "left:70px;right:70px;top:150px;bottom:170px") 
 const model = name => {
   const m = M[name];
   return { html: card(name, `
-    <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:40px">${m.tag}</span>
+    <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:34px;margin-right:20px">${m.tag}</span>
       <span style="display:flex;gap:10px">${[1, 2, 3, 4].map(i => `<i style="display:block;width:34px;height:34px;border-radius:50%;border:4px solid #1f1e1d;background:${i <= m.dots ? "#f1c9b6" : "#fff"}"></i>`).join("")}</span></div>
     <div class="serif" style="font-size:104px;margin:30px 0 24px;font-weight:400">${name}</div>
     <div style="font-size:40px;line-height:1.35">${m.d}</div>
