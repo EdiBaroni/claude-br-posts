@@ -26,6 +26,8 @@
   .bar i { width: 16px; height: 16px; border-radius: 50%; background: #d3d0c6; display: block; }
   .bar span { margin-left: 14px; font-size: 22px; color: #77746b; font-weight: 500; }
   .win .art { flex: 1; display: flex; align-items: center; justify-content: center; font-size: 200px; }
+  .shot { width: 800px; max-height: 620px; object-fit: cover; object-position: top; border-radius: 22px; box-shadow: 0 24px 60px rgba(0,0,0,.25); display: block; filter: contrast(1.04) saturate(1.05); }
+  .mini img { width: 100%; height: 100%; object-fit: cover; border-radius: 26px; display: block; }
   .tagcard { position: absolute; top: 80px; left: 46px; background: #fff; border-radius: 22px; padding: 22px 34px 20px; box-shadow: 0 10px 30px rgba(0,0,0,.10); }
   .tagcard .t { font-family: "Source Serif 4", serif; font-weight: 600; font-size: 50px; letter-spacing: -0.01em; }
   .tagcard .c { font-size: 28px; color: #6d6a62; margin-top: 4px; }
@@ -54,25 +56,25 @@
 <div class="foot"><b>@claude.anthropic.br · conteúdo não oficial</b><span id="pg"></span></div>
 <script>
 const projects = [
-  { bg: "#e6ddcf", panel: "linear-gradient(135deg,#b7d2e1,#ecc9b9)", t: "Mapa do diário de guerra", c: "Para a família", w: "diario-bisavo.app", art: "🗺️",
+  { bg: "#e6ddcf", panel: "linear-gradient(135deg,#b7d2e1,#ecc9b9)", t: "Mapa do diário de guerra", c: "Para a família", w: "diario-bisavo.app", art: "🗺️", img: "diario",
     n: "Daniel J.", r: "Engenharia", av: "#8a6f5a",
     q: "“O Claude me ajudou a transcrever o diário do meu bisavô e a transformá-lo num mapa interativo que mostra o caminho dele na Primeira Guerra Mundial.”" },
-  { bg: "#e7cfe1", panel: "linear-gradient(135deg,#1e3a8e,#4a7fe0)", t: "Como carregar uma câmera de filme", c: "Aprenda clicando", w: "camera-35mm.app", art: "📷",
+  { bg: "#e7cfe1", panel: "linear-gradient(135deg,#1e3a8e,#4a7fe0)", t: "Como carregar uma câmera de filme", c: "Aprenda clicando", w: "camera-35mm.app", art: "📷", img: "camera",
     n: "Alec W.", r: "Engenharia", av: "#5a7a8a",
     q: "“Sou fã de fotografia analógica e adoro mostrar aos amigos como as câmeras funcionam… então pedi ao Claude uma animação 3D interativa de como usar minha 35 mm.”" },
-  { bg: "#eed1d1", panel: "linear-gradient(135deg,#f5e6e6,#e6b5b5)", t: "Letterhand", c: "Só porque sim", w: "letterhand.app", art: "✍️",
+  { bg: "#eed1d1", panel: "linear-gradient(135deg,#f5e6e6,#e6b5b5)", t: "Letterhand", c: "Só porque sim", w: "letterhand.app", art: "✍️", img: "letterhand",
     n: "Tammy T.", r: "Design de Produto", av: "#a0566b",
     q: "“Criei um gerador de fontes ‘com a sua letra’. Você desenha as letras e baixa a sua própria fonte.”" },
-  { bg: "#cfdae6", panel: "linear-gradient(135deg,#2e6e5d,#a9e1b2)", t: "Rota das aves do Pacífico", c: "Aprenda clicando", w: "pacific-flyway.app", art: "🪿",
+  { bg: "#cfdae6", panel: "linear-gradient(135deg,#2e6e5d,#a9e1b2)", t: "Rota das aves do Pacífico", c: "Aprenda clicando", w: "pacific-flyway.app", art: "🪿", img: "flyway",
     n: "Alec W.", r: "Engenharia", av: "#5a7a8a",
     q: "“Assisti a uma palestra sobre os gansos-de-brant no Alasca. O Claude me ajudou a visualizar a rota migratória do Pacífico e a entender melhor a migração deles.”" },
-  { bg: "#d5d1e8", panel: "linear-gradient(135deg,#c0c4ef,#9ed4d6)", t: "Claude Photo Lab", c: "Projeto de fim de semana", w: "photo-lab.app", art: "🏞️",
+  { bg: "#d5d1e8", panel: "linear-gradient(135deg,#c0c4ef,#9ed4d6)", t: "Claude Photo Lab", c: "Projeto de fim de semana", w: "photo-lab.app", art: "🏞️", img: "photolab",
     n: "Pedram N.", r: "Educação", av: "#6b6aa8",
     q: "“Um editor de fotos com agente: você só conversa com ele, em vez de ficar mexendo em botões deslizantes.”" },
-  { bg: "#d0dcc6", panel: "linear-gradient(135deg,#edf2e8,#b6cead)", t: "Left on Thread", c: "Organização da vida", w: "left-on-thread.app", art: "💬",
+  { bg: "#d0dcc6", panel: "linear-gradient(135deg,#edf2e8,#b6cead)", t: "Left on Thread", c: "Organização da vida", w: "left-on-thread.app", art: "💬", img: "thread",
     n: "Ryan K.", r: "Confiança e Segurança", av: "#5f7d58",
     q: "“Eu queria um artifact que organizasse todas as minhas conversas abertas no Slack em três categorias simples.”" },
-  { bg: "#efd1c2", panel: "linear-gradient(135deg,#f2dccf,#d8c5ea)", t: "Galpão de bicicletas", c: "Projeto de fim de semana", w: "bike-shed.app", art: "🚲",
+  { bg: "#efd1c2", panel: "linear-gradient(135deg,#f2dccf,#d8c5ea)", t: "Galpão de bicicletas", c: "Projeto de fim de semana", w: "bike-shed.app", art: "🚲", img: "bikeshed",
     n: "Daniel J.", r: "Engenharia", av: "#8a6f5a",
     q: "“O Claude me ajudou a projetar um galpão para bicicletas, com um modelo 3D explodido… e uma lista de cortes e um guia de montagem completos.”" }
 ];
@@ -82,15 +84,15 @@ const app = document.getElementById("app");
 if (n === 1) {
   document.body.style.setProperty("--bg", "#c8d7cf");
   app.innerHTML = `
-    <div class="mini" style="left:-40px;top:40px;width:420px;height:300px;background:linear-gradient(135deg,#f4efe4,#e3dccb)">🗺️</div>
-    <div class="mini" style="right:-30px;top:20px;width:400px;height:320px;background:linear-gradient(135deg,#9ec3d9,#cfe3c6)">🏞️</div>
+    <div class="mini" style="left:-40px;top:40px;width:420px;height:300px;background:#fff"><img src="telas/diario.png"></div>
+    <div class="mini" style="right:-30px;top:20px;width:400px;height:320px;background:#fff"><img src="telas/photolab.png"></div>
     <div class="chip" style="left:60px;top:300px">Para a família</div>
     <div class="chip" style="right:60px;top:300px">Só porque sim</div>
     <div class="serif cover-title">Dá para criar (quase) tudo com o Claude</div>
     <div class="cover-sub">Você descreve o que quer e o Claude constrói. Veja o que o pessoal da Anthropic anda criando no tempo livre.</div>
     <div class="badge">Feito com Opus 5.5 e Sonnet 5.5</div>
-    <div class="mini" style="left:-30px;bottom:110px;width:420px;height:260px;background:linear-gradient(135deg,#f3e6cf,#e9d2b8)">🚲</div>
-    <div class="mini" style="right:-40px;bottom:110px;width:420px;height:260px;background:linear-gradient(135deg,#1e3a8e,#4a7fe0)">📷</div>
+    <div class="mini" style="left:-30px;bottom:110px;width:420px;height:260px;background:#fff"><img src="telas/bikeshed.png"></div>
+    <div class="mini" style="right:-40px;bottom:110px;width:420px;height:260px;background:#fff"><img src="telas/camera.png"></div>
     <div class="chip" style="left:60px;top:1000px">Projeto de fim de semana</div>
     <div class="chip" style="right:60px;top:1000px">Aprenda clicando</div>`;
 } else if (n === total) {
@@ -109,7 +111,7 @@ if (n === 1) {
   const initials = p.n.split(" ").map(s => s[0]).join("");
   app.innerHTML = `
     <div class="panel" style="background:${p.panel}">
-      <div class="win"><div class="bar"><i></i><i></i><i></i><span>${p.w}</span></div><div class="art">${p.art}</div></div>
+      <img class="shot" src="telas/${p.img}.png">
     </div>
     <div class="tagcard"><div class="t">${p.t}</div><div class="c">${p.c}</div></div>
     <div class="person"><div class="avatar" style="background:${p.av}">${initials}</div><div><div class="n">${p.n}</div><div class="r">${p.r}</div></div></div>
