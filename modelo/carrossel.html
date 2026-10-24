@@ -64,6 +64,9 @@ const feature = s => `<div class="feat">
 const center = s => `<div class="center">${s.icon || ""}<h2 class="serif" style="${s.titleStyle || ""}">${s.title}</h2>${s.sub ? `<p class="sub">${s.sub}</p>` : ""}${s.src ? `<p class="src">${s.src}</p>` : ""}</div>`;
 const s0 = document.createElement("script");
 s0.src = P + "post.js";
+const pecas = document.createElement("script");
+pecas.src = "pecas.js";
+pecas.onload = () => document.head.appendChild(s0);
 s0.onload = () => {
   const slides = POST.slides;
   const s = slides[Math.min(Math.max(N, 1), slides.length) - 1];
@@ -71,7 +74,7 @@ s0.onload = () => {
   document.getElementById("app").innerHTML = s.type === "feature" ? feature(s) : s.type === "center" ? center(s) : s.html;
   document.getElementById("pg").textContent = N < slides.length ? `${N}/${slides.length} →` : `${N}/${slides.length}`;
 };
-document.head.appendChild(s0);
+document.head.appendChild(pecas);
 </script>
 </body>
 </html>

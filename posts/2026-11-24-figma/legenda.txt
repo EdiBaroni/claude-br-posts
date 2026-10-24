@@ -1,0 +1,10 @@
+Transforme seus designs do Figma em código pronto para produção com o Claude. 💻
+
+Instale o conector → Ative o servidor MCP → Compartilhe o link do design → Veja o Claude programar
+
+O Claude analisa layout, cores, tipografia e componentes, e gera um código limpo e fiel ao seu design.
+
+💡 Dicas: nomeie bem as camadas, use tokens de design e diga qual framework você quer.
+
+Fonte: Anthropic (@claudeai) e Figma (@figma) · Tradução e adaptação não oficial
+#Claude #Figma #Design #Programacao #ZeniteWeb

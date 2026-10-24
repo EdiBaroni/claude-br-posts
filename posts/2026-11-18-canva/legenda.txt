@@ -1,0 +1,13 @@
+Do documento ao design com o Claude + Canva. 🎨
+
+Envie qualquer documento, como um post do blog, um guia de produto ou uma ata de reunião, e peça ao Claude para transformar em peças visuais com a cara da sua marca.
+
+Comece em 3 passos:
+1. Abra o diretório de conectores do Claude
+2. Conecte o Canva
+3. Peça ao Claude para criar um design
+
+💡 Dica: monte um kit de marca no Canva e diga onde o design será usado.
+
+Fonte: Anthropic (@claudeai) e Canva (@canva) · Tradução e adaptação não oficial
+#Claude #Canva #Design #MarketingDigital #ZeniteWeb

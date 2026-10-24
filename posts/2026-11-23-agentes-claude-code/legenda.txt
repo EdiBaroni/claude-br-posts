@@ -1,0 +1,13 @@
+Os agentes do Claude Code ajudam você a escrever, refinar e depurar o seu próximo projeto. 👩‍💻
+
+É como gerenciar uma equipe de especialistas, cada um cuidando de uma tarefa.
+
+Como criar:
+1️⃣ Digite /agents e escolha criar novo agente
+2️⃣ Descreva o que ele deve fazer e quando usar
+3️⃣ Escolha as ferramentas que ele pode acessar
+
+💡 Dicas: uma responsabilidade por agente, prompts com passos claros e acesso só às ferramentas necessárias.
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#ClaudeCode #Programacao #Desenvolvimento #InteligenciaArtificial #ZeniteWeb
