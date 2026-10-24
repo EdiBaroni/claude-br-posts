@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Carrossel Crie quase tudo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=DM+Sans:wght@400;500;600&display=block" rel="stylesheet">
+<style>
+  :root { --ink: #1f1e1d; --ink-soft: #46443f; --clay: #d97757; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  body { color: var(--ink); font-family: "DM Sans", sans-serif; position: relative; background: var(--bg, #eee); }
+  .serif { font-family: "Source Serif 4", serif; font-weight: 500; letter-spacing: -0.02em; }
+  .abs { position: absolute; }
+  /* cover */
+  .chip { position: absolute; background: #fff; border-radius: 14px; padding: 14px 24px; font-family: "Source Serif 4", serif; font-size: 32px; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+  .mini { position: absolute; border-radius: 26px; box-shadow: 0 14px 40px rgba(0,0,0,.12); display: flex; align-items: center; justify-content: center; font-size: 110px; }
+  .cover-title { position: absolute; left: 70px; right: 70px; top: 430px; text-align: center; font-size: 104px; line-height: 1.05; }
+  .cover-sub { position: absolute; left: 110px; right: 110px; top: 690px; text-align: center; font-size: 40px; line-height: 1.35; color: var(--ink-soft); }
+  .badge { position: absolute; left: 50%; transform: translateX(-50%); top: 880px; background: #5f8f7a; color: #fff; border-radius: 40px; padding: 16px 34px; font-size: 30px; font-weight: 600; white-space: nowrap; }
+  /* project */
+  .panel { position: absolute; top: 140px; left: 70px; right: 70px; height: 740px; border-radius: 44px; display: flex; align-items: center; justify-content: center; }
+  .win { width: 640px; height: 470px; background: #fbfaf7; border-radius: 26px; box-shadow: 0 24px 60px rgba(0,0,0,.22); overflow: hidden; display: flex; flex-direction: column; }
+  .bar { height: 54px; background: #efede6; display: flex; align-items: center; gap: 12px; padding: 0 22px; }
+  .bar i { width: 16px; height: 16px; border-radius: 50%; background: #d3d0c6; display: block; }
+  .bar span { margin-left: 14px; font-size: 22px; color: #77746b; font-weight: 500; }
+  .win .art { flex: 1; display: flex; align-items: center; justify-content: center; font-size: 200px; }
+  .tagcard { position: absolute; top: 80px; left: 46px; background: #fff; border-radius: 22px; padding: 22px 34px 20px; box-shadow: 0 10px 30px rgba(0,0,0,.10); }
+  .tagcard .t { font-family: "Source Serif 4", serif; font-weight: 600; font-size: 50px; letter-spacing: -0.01em; }
+  .tagcard .c { font-size: 28px; color: #6d6a62; margin-top: 4px; }
+  .person { position: absolute; top: 810px; right: 46px; background: #fff; border-radius: 22px; padding: 18px 30px 18px 18px; display: flex; gap: 18px; align-items: center; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+  .avatar { width: 76px; height: 76px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 34px; font-weight: 600; color: #fff; }
+  .person .n { font-size: 34px; font-weight: 600; }
+  .person .r { font-size: 26px; color: #6d6a62; }
+  .quote { position: absolute; top: 960px; left: 90px; right: 90px; font-size: 44px; line-height: 1.28; }
+  /* final */
+  .yourturn { position: absolute; top: 170px; left: 50%; transform: translateX(-50%); background: #fff; border-radius: 14px; padding: 12px 26px; font-size: 32px; font-weight: 600; box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+  .final-title { position: absolute; top: 280px; left: 60px; right: 60px; text-align: center; font-size: 104px; line-height: 1.05; }
+  .prompt { position: absolute; top: 580px; left: 90px; right: 90px; background: #fff; border-radius: 34px; padding: 44px 46px 34px; box-shadow: 0 20px 50px rgba(0,0,0,.10); }
+  .prompt p { font-size: 40px; line-height: 1.35; }
+  .prompt .row { display: flex; align-items: center; justify-content: space-between; margin-top: 50px; }
+  .plus { width: 66px; height: 66px; border-radius: 16px; background: #efede6; display: flex; align-items: center; justify-content: center; font-size: 40px; }
+  .model { display: flex; align-items: center; gap: 22px; font-size: 30px; color: #77746b; }
+  .send { width: 70px; height: 70px; border-radius: 18px; background: var(--clay); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 38px; font-weight: 700; }
+  .src { position: absolute; top: 1010px; left: 90px; right: 90px; text-align: center; font-size: 32px; color: var(--ink-soft); line-height: 1.4; }
+  /* footer */
+  .foot { position: absolute; left: 90px; right: 90px; bottom: 50px; display: flex; justify-content: space-between; font-size: 26px; color: #4a4843; }
+  .foot b { font-weight: 600; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div class="foot"><b>@claude.anthropic.br · conteúdo não oficial</b><span id="pg"></span></div>
+<script>
+const projects = [
+  { bg: "#e6ddcf", panel: "linear-gradient(135deg,#b7d2e1,#ecc9b9)", t: "Mapa do diário de guerra", c: "Para a família", w: "diario-bisavo.app", art: "🗺️",
+    n: "Daniel J.", r: "Engenharia", av: "#8a6f5a",
+    q: "“O Claude me ajudou a transcrever o diário do meu bisavô e a transformá-lo num mapa interativo que mostra o caminho dele na Primeira Guerra Mundial.”" },
+  { bg: "#e7cfe1", panel: "linear-gradient(135deg,#1e3a8e,#4a7fe0)", t: "Como carregar uma câmera de filme", c: "Aprenda clicando", w: "camera-35mm.app", art: "📷",
+    n: "Alec W.", r: "Engenharia", av: "#5a7a8a",
+    q: "“Sou fã de fotografia analógica e adoro mostrar aos amigos como as câmeras funcionam… então pedi ao Claude uma animação 3D interativa de como usar minha 35 mm.”" },
+  { bg: "#eed1d1", panel: "linear-gradient(135deg,#f5e6e6,#e6b5b5)", t: "Letterhand", c: "Só porque sim", w: "letterhand.app", art: "✍️",
+    n: "Tammy T.", r: "Design de Produto", av: "#a0566b",
+    q: "“Criei um gerador de fontes ‘com a sua letra’. Você desenha as letras e baixa a sua própria fonte.”" },
+  { bg: "#cfdae6", panel: "linear-gradient(135deg,#2e6e5d,#a9e1b2)", t: "Rota das aves do Pacífico", c: "Aprenda clicando", w: "pacific-flyway.app", art: "🪿",
+    n: "Alec W.", r: "Engenharia", av: "#5a7a8a",
+    q: "“Assisti a uma palestra sobre os gansos-de-brant no Alasca. O Claude me ajudou a visualizar a rota migratória do Pacífico e a entender melhor a migração deles.”" },
+  { bg: "#d5d1e8", panel: "linear-gradient(135deg,#c0c4ef,#9ed4d6)", t: "Claude Photo Lab", c: "Projeto de fim de semana", w: "photo-lab.app", art: "🏞️",
+    n: "Pedram N.", r: "Educação", av: "#6b6aa8",
+    q: "“Um editor de fotos com agente: você só conversa com ele, em vez de ficar mexendo em botões deslizantes.”" },
+  { bg: "#d0dcc6", panel: "linear-gradient(135deg,#edf2e8,#b6cead)", t: "Left on Thread", c: "Organização da vida", w: "left-on-thread.app", art: "💬",
+    n: "Ryan K.", r: "Confiança e Segurança", av: "#5f7d58",
+    q: "“Eu queria um artifact que organizasse todas as minhas conversas abertas no Slack em três categorias simples.”" },
+  { bg: "#efd1c2", panel: "linear-gradient(135deg,#f2dccf,#d8c5ea)", t: "Galpão de bicicletas", c: "Projeto de fim de semana", w: "bike-shed.app", art: "🚲",
+    n: "Daniel J.", r: "Engenharia", av: "#8a6f5a",
+    q: "“O Claude me ajudou a projetar um galpão para bicicletas, com um modelo 3D explodido… e uma lista de cortes e um guia de montagem completos.”" }
+];
+const total = projects.length + 2;
+const n = Math.min(Math.max(parseInt(new URLSearchParams(location.search).get("n") || "1", 10), 1), total);
+const app = document.getElementById("app");
+if (n === 1) {
+  document.body.style.setProperty("--bg", "#c8d7cf");
+  app.innerHTML = `
+    <div class="mini" style="left:-40px;top:40px;width:420px;height:300px;background:linear-gradient(135deg,#f4efe4,#e3dccb)">🗺️</div>
+    <div class="mini" style="right:-30px;top:20px;width:400px;height:320px;background:linear-gradient(135deg,#9ec3d9,#cfe3c6)">🏞️</div>
+    <div class="chip" style="left:60px;top:300px">Para a família</div>
+    <div class="chip" style="right:60px;top:300px">Só porque sim</div>
+    <div class="serif cover-title">Dá para criar (quase) tudo com o Claude</div>
+    <div class="cover-sub">Você descreve o que quer e o Claude constrói. Veja o que o pessoal da Anthropic anda criando no tempo livre.</div>
+    <div class="badge">Feito com Opus 5.5 e Sonnet 5.5</div>
+    <div class="mini" style="left:-30px;bottom:110px;width:420px;height:260px;background:linear-gradient(135deg,#f3e6cf,#e9d2b8)">🚲</div>
+    <div class="mini" style="right:-40px;bottom:110px;width:420px;height:260px;background:linear-gradient(135deg,#1e3a8e,#4a7fe0)">📷</div>
+    <div class="chip" style="left:60px;top:1000px">Projeto de fim de semana</div>
+    <div class="chip" style="right:60px;top:1000px">Aprenda clicando</div>`;
+} else if (n === total) {
+  document.body.style.setProperty("--bg", "#f4f2ec");
+  app.innerHTML = `
+    <div class="yourturn">Sua vez</div>
+    <div class="serif final-title">Você traz a ideia.<br>O Claude constrói.</div>
+    <div class="prompt">
+      <p>Crie um app que transforme a minha letra numa fonte que eu possa baixar</p>
+      <div class="row"><div class="plus">+</div><div class="model">Opus 5.5 <div class="send">↑</div></div></div>
+    </div>
+    <div class="src">Qual seria o seu primeiro projeto? Conta aqui nos comentários 👇<br><br>Fonte: Anthropic (@claudeai)</div>`;
+} else {
+  const p = projects[n - 2];
+  document.body.style.setProperty("--bg", p.bg);
+  const initials = p.n.split(" ").map(s => s[0]).join("");
+  app.innerHTML = `
+    <div class="panel" style="background:${p.panel}">
+      <div class="win"><div class="bar"><i></i><i></i><i></i><span>${p.w}</span></div><div class="art">${p.art}</div></div>
+    </div>
+    <div class="tagcard"><div class="t">${p.t}</div><div class="c">${p.c}</div></div>
+    <div class="person"><div class="avatar" style="background:${p.av}">${initials}</div><div><div class="n">${p.n}</div><div class="r">${p.r}</div></div></div>
+    <div class="serif quote">${p.q}</div>`;
+}
+document.getElementById("pg").textContent = n < total ? `${n}/${total} →` : `${n}/${total}`;
+</script>
+</body>
+</html>
