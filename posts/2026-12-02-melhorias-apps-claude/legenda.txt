@@ -1,0 +1,13 @@
+Algumas melhorias nos apps do Claude para celular nesta semana. 📱
+
+📲 No iPad e no iPhone Duo, o que o Claude cria abre ao lado da conversa
+👥 Dá para ficar conectado em mais de uma conta no iOS e no Android
+💻 Em Chromebooks e dobráveis, o Claude no Android funciona como app de notebook
+🎙️ O modo de voz responde mais rápido e, no iPhone, funciona com o Apple CarPlay
+🌍 O app chegou a mais 24 idiomas, 33 no total
+🔎 Puxar a tela para baixo para buscar chega em breve ao iPhone e ao iPad
+
+O que você gostaria de ver depois? Conta nos comentários!
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #AppClaude #InteligenciaArtificial #Produtividade #ZeniteWeb

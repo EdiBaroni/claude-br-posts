@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "ini": 0,
+    "fim": 3,
+    "texto": "Olha este gráfico que o Claude fez no novo iPhone Duo."
+  },
+  {
+    "id": 2,
+    "ini": 3,
+    "fim": 6.2,
+    "texto": "Desdobre o celular, e ele abre bem ao lado da conversa."
+  },
+  {
+    "id": 3,
+    "ini": 6.2,
+    "fim": 12.4,
+    "texto": "No iPad, o layout é o mesmo: o que o Claude cria fica ao lado da conversa, em vez de cobrir a tela."
+  },
+  {
+    "id": 4,
+    "ini": 12.5,
+    "fim": 17.3,
+    "texto": "Essa é uma das várias melhorias nos apps do Claude. E tem mais uma a caminho."
+  },
+  {
+    "id": 5,
+    "ini": 17.4,
+    "fim": 23.9,
+    "texto": "Agora dá para ficar conectado em mais de uma conta, como a do trabalho e a pessoal, e alternar sem sair."
+  },
+  {
+    "id": 6,
+    "ini": 24,
+    "fim": 29.8,
+    "texto": "No Android, em Chromebooks e celulares dobráveis, o Claude funciona como um app de notebook."
+  },
+  {
+    "id": 7,
+    "ini": 29.9,
+    "fim": 32.2,
+    "texto": "O modo de voz responde mais rápido e ouve melhor."
+  },
+  {
+    "id": 8,
+    "ini": 32.3,
+    "fim": 39.4,
+    "texto": "E no iPhone, ele funciona com o Apple CarPlay: pergunte ao Claude no caminho, sem tirar as mãos do volante."
+  },
+  {
+    "id": 9,
+    "ini": 39.5,
+    "fim": 44,
+    "texto": "O app também chegou a mais vinte e quatro idiomas: trinta e três no total.",
+    "legenda": "O app também chegou a mais 24 idiomas: 33 no total."
+  },
+  {
+    "id": 10,
+    "ini": 44.1,
+    "fim": 51.8,
+    "texto": "Em breve no iPhone e no iPad: puxe a tela para baixo para buscar uma conversa, um projeto, ou ir direto a uma configuração."
+  },
+  {
+    "id": 11,
+    "ini": 51.9,
+    "fim": 57.7,
+    "texto": "Dica: na web e no computador, a busca já existe. No Mac, use Command K."
+  },
+  {
+    "id": 12,
+    "ini": 57.9,
+    "fim": 61.8,
+    "texto": "Qual dessas novidades você quer testar primeiro? Conta nos comentários!"
+  }
+]
