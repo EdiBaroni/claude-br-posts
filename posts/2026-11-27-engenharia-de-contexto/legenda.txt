@@ -1,0 +1,20 @@
+A Anthropic tirou mais de 80% do prompt de sistema do Claude Code para os modelos mais avançados, sem perda mensurável de desempenho. 🧠
+
+O contexto que guiava os modelos antigos agora limita demais os mais capazes. Estas são as seis mudanças:
+
+⚖️ Deixe o Claude usar o bom senso. Os modelos novos leem o código ao redor e seguem as convenções sozinhos. Onde você tem regras rígidas que poderiam virar princípios?
+
+🧩 Projete interfaces. Em vez de dar exemplos, pense no desenho das suas ferramentas, scripts e arquivos. Que parâmetros o Claude tem, e como eles podem ser mais expressivos?
+
+📂 Revele o contexto aos poucos. Nem tudo precisa estar no prompt de sistema. Que instruções poderiam ficar numa skill que o Claude só chama quando precisa?
+
+🔧 Descrições simples de ferramentas. Se a mesma instrução está no prompt de sistema e na descrição da ferramenta, tire do prompt. Os modelos novos não precisam de repetição.
+
+💾 Memória automática. O Claude agora guarda sozinho o contexto relevante, sem você precisar gerenciar a memória.
+
+📎 Referências ricas. O Claude entende muito mais que um arquivo markdown. Mostre um artifact em HTML, um conjunto de testes ou o código de outro projeto.
+
+Qual dessas mudanças você já aplicou? Conta nos comentários!
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#Claude #ClaudeCode #EngenhariaDeContexto #InteligenciaArtificial #ZeniteWeb
