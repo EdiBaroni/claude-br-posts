@@ -1,0 +1,42 @@
+# Quando o robô empurra noticias/<dia>/ficha.md, abre a Issue de aprovação
+# e a atribui a quem aprova (a atribuição é o que manda o e-mail).
+name: Abrir ficha de aprovação
+
+on:
+  push:
+    branches: [main]
+    paths: ["noticias/*/ficha.md"]
+  workflow_dispatch:
+    inputs:
+      pasta:
+        description: "Pasta do post (ex.: noticias/2026-11-10)"
+        required: true
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: abrir-ficha
+  cancel-in-progress: false
+
+jobs:
+  ficha:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Abrir as fichas novas
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APROVADORA: EdiBaroni
+          BEFORE: ${{ github.event.before }}
+          PASTA_MANUAL: ${{ inputs.pasta }}
+        run: |
+          set -euo pipefail
+          node robo/scripts/abrir-ficha.mjs

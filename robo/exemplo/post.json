@@ -1,0 +1,15 @@
+{
+  "_leia": "EXEMPLO DE FORMATO. Não é notícia: serve só para mostrar cada tipo de slide. Textos aceitam <b> e <i>.",
+  "bg": "#faf9f5",
+  "telas": {
+    "destaque": { "url": "https://www.anthropic.com/news", "modo": "pagina", "largura": 1280, "altura": 900 }
+  },
+  "slides": [
+    { "tipo": "capa", "selo": "Novidade", "rotulo": "Anthropic · 9 nov 2026", "titulo": "Título curto que diz o que mudou", "tela": "destaque", "sub": "Uma frase que explica por que isso importa para você." },
+    { "tipo": "texto", "rotulo": "O que é", "titulo": "Em uma frase", "paragrafos": ["Explique a novidade como se fosse para alguém que usa o Claude no trabalho, mas não é técnico.", "Segundo parágrafo opcional, com o detalhe que mais interessa. <b>Negrito</b> com moderação."] },
+    { "tipo": "lista", "rotulo": "O que muda", "titulo": "Na prática", "itens": [["⚡", "Primeiro ponto", "Descrição curta do ponto"], ["🧠", "Segundo ponto", "Descrição curta do ponto"], ["🔒", "Terceiro ponto", "Descrição curta do ponto"]] },
+    { "tipo": "pedido", "titulo": "Teste com um pedido assim", "pedido": "Leia este relatório e me diga os três pontos que mais afetam o meu time.", "sub": "Funciona no app e no claude.ai." },
+    { "tipo": "texto", "rotulo": "Disponibilidade", "selo": "Pro e Max", "cor": "var(--green)", "titulo": "Quem já pode usar", "paragrafos": ["Diga os planos e os países exatamente como a fonte diz. Se a fonte não disser, escreva que a Anthropic não informou."] },
+    { "tipo": "final", "titulo": "Você já testou?", "sub": "Conta nos comentários o que achou.", "fonte": "Fonte: Anthropic (anthropic.com/news)" }
+  ]
+}

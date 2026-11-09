@@ -1,0 +1,37 @@
+# Vigia: falha calada é a pior. Horários em UTC (Brasília = UTC-3).
+#   12:00 UTC = 9h de Brasília:    a ficha de hoje chegou?
+#   20:30 UTC = 17h30 de Brasília: há post aprovado que não foi agendado?
+name: Vigia do robô de notícias
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+    inputs:
+      turno:
+        description: "manha ou tarde"
+        required: true
+        default: manha
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  vigiar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Conferir
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APROVADORA: EdiBaroni
+          TURNO: ${{ inputs.turno || (github.event.schedule == '30 20 * * *' && 'tarde' || 'manha') }}
+        run: |
+          set -euo pipefail
+          node robo/scripts/vigia.mjs

@@ -1,0 +1,13 @@
+{
+  "name": "claude-br-posts",
+  "private": true,
+  "type": "module",
+  "description": "Artes do @claude.anthropic.br e o robô diário de notícias do Claude",
+  "scripts": {
+    "gerar": "node robo/scripts/gerar-carrossel.mjs",
+    "testes": "node robo/scripts/testes.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

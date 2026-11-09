@@ -1,0 +1,49 @@
+# Lê a resposta à ficha. A condição do job decide QUEM pode aprovar;
+# o script decide SE é aprovação (primeira linha com conteúdo, ignorando citação de e-mail).
+# Aprovado: grava noticias/<dia>/aprovado.json. Quem agenda no Metricool é a rotina "agendador".
+name: Aprovar post
+
+on:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: aprovar-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  aprovar:
+    if: >-
+      github.event.issue.state == 'open' &&
+      github.event.issue.pull_request == null &&
+      contains(github.event.issue.labels.*.name, 'ficha') &&
+      github.event.sender.type != 'Bot' &&
+      (
+        (github.event_name == 'issues' && github.event.label.name == 'aprovado') ||
+        (github.event_name == 'issue_comment' &&
+          contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association))
+      )
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Conferir se é aprovação e gravar
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENTO: ${{ github.event_name }}
+          COMENTARIO: ${{ github.event.comment.body }}
+          ISSUE: ${{ github.event.issue.number }}
+          ISSUE_CORPO: ${{ github.event.issue.body }}
+          QUEM: ${{ github.event.sender.login }}
+        run: |
+          set -euo pipefail
+          node robo/scripts/aprovar.mjs
