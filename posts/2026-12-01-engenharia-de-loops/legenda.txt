@@ -1,0 +1,14 @@
+O que é, afinal, um loop? 🔁
+
+O time do Claude Code define assim: um agente repetindo ciclos de trabalho até cumprir uma condição de parada. Estes são os quatro tipos e quando usar cada um:
+
+💬 Por turno: o Claude avalia sozinho se terminou ou se precisa de mais contexto. Bom para explorar ou tomar decisões.
+🎯 Por meta: você define o que é "pronto", e o Claude repete até chegar lá. Bom para tarefas com critério de saída que dá para verificar.
+⏰ Por tempo: o Claude executa um prompt numa agenda que você define. Bom para trabalho recorrente.
+🤖 Proativo: o Claude age sozinho a partir de uma agenda ou gatilho, até na nuvem. Bom para fluxos recorrentes e bem definidos.
+
+Arraste para ver como cada um funciona. 👉
+Qual tipo de loop você já usa? Conta nos comentários!
+
+Fonte: Anthropic (@claudeai) · Tradução e adaptação não oficial
+#ClaudeCode #Claude #Programacao #InteligenciaArtificial #ZeniteWeb
