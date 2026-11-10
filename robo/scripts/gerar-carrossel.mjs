@@ -31,7 +31,7 @@ const servidor = http.createServer((req, res) => {
 await new Promise(ok => servidor.listen(0, "127.0.0.1", ok));
 const BASE = `http://127.0.0.1:${servidor.address().port}`;
 const W = 1080, H = 1350;
-const LIMITE_RODAPE = 1235; // abaixo disso começa a faixa do rodapé "@claude.anthropic.br · conteúdo não oficial"
+const LIMITE_RODAPE = 1235; // abaixo disso começa a faixa do rodapé "@claude.anthropic.br · traduzido de @claudeai"
 
 const args = process.argv.slice(2);
 const recapturar = args.includes("--recapturar");

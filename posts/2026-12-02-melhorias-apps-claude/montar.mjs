@@ -89,7 +89,7 @@ const camadas = {
     <div class="a s" style="left:0;right:0;top:450px;text-align:center;font-size:90px;line-height:1.05">Já disponível na web<br>e no computador</div>
     <div class="a" style="left:300px;top:1072px;width:480px;height:76px;background:${C}"></div>
     <div class="a" style="left:0;right:0;top:1086px;text-align:center;font-size:34px;color:#6b6862">No Mac</div>`,
-  rodape: `<div class="rod"><span>@claude.anthropic.br · conteúdo não oficial</span></div>`,
+  rodape: `<div class="rod"><span>@claude.anthropic.br · traduzido de @claudeai</span></div>`,
   final: `<div class="a" style="inset:0;background:${C}"></div>
     <div class="a" style="left:0;right:0;top:470px;text-align:center"><span style="font-family:'Source Serif 4',serif;font-size:60px;color:#d97757">✳</span></div>
     <div class="a s" style="left:90px;right:90px;top:570px;text-align:center;font-size:92px;line-height:1.06">Qual dessas novidades você quer testar primeiro?</div>

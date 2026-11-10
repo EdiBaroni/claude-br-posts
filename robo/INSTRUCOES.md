@@ -89,7 +89,7 @@ slide lá). Regras:
   com a origem e a data (ex.: "Anthropic · 9 nov 2026").
 - Títulos de até ~55 caracteres; parágrafos curtos (no máximo 3 por slide); listas com no máximo 4 itens.
 - O slide `final` traz uma **pergunta para os comentários** e a fonte: `"fonte": "Fonte: Anthropic (anthropic.com/news)"`.
-- O rodapé `@claude.anthropic.br · conteúdo não oficial` já vem no modelo. Não mexa no `modelo/`.
+- O rodapé `@claude.anthropic.br · traduzido de @claudeai` já vem no modelo. Não mexa no `modelo/`.
 
 ### Imagens
 
