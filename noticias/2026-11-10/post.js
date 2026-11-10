@@ -69,7 +69,7 @@ const D = {
       "tipo": "final",
       "titulo": "Vai testar o Fable 5.2?",
       "sub": "Conta nos comentários o que você pretende fazer com ele.",
-      "fonte": "Fonte: Anthropic (anthropic.com/claude-fable-and-mythos-5-2)"
+      "fonte": "Fonte: Anthropic (anthropic.com)"
     }
   ]
 };
