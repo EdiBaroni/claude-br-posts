@@ -108,7 +108,7 @@ for (const [nome, t] of Object.entries(post.telas || {})) {
 // 3. post.js
 const D = JSON.stringify({ bg: post.bg || "#faf9f5", slides: post.slides }, null, 2);
 fs.writeFileSync(path.join(pasta, "post.js"),
-  `// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.\nconst D = ${D};\nconst POST = { bg: D.bg, slides: D.slides.map(K.nx) };\n`);
+  `// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.\nconst D = ${D};\nconst POST = { bg: D.bg, rodape: "@claude.anthropic.br", slides: D.slides.map(K.nx) };\n`);
 
 // 4. slides
 for (const f of fs.readdirSync(pasta)) if (/^slide-\d+\.png$/.test(f)) fs.rmSync(path.join(pasta, f));

@@ -69,6 +69,8 @@ s0.onload = () => {
   const slides = POST.slides;
   const s = slides[Math.min(Math.max(N, 1), slides.length) - 1];
   document.body.style.setProperty("--bg", s.bg || POST.bg || "#faf9f5");
+  // Posts de notícia trocam o rodapé (não são tradução); os traduzidos usam o padrão abaixo.
+  if (typeof POST.rodape === "string") document.querySelector(".foot b").textContent = POST.rodape;
   document.getElementById("app").innerHTML = s.type === "feature" ? feature(s) : s.type === "center" ? center(s) : s.html;
   document.getElementById("pg").textContent = N < slides.length ? `${N}/${slides.length} →` : `${N}/${slides.length}`;
 };

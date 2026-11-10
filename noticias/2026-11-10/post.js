@@ -73,4 +73,4 @@ const D = {
     }
   ]
 };
-const POST = { bg: D.bg, slides: D.slides.map(K.nx) };
+const POST = { bg: D.bg, rodape: "@claude.anthropic.br", slides: D.slides.map(K.nx) };
