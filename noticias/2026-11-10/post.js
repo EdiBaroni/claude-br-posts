@@ -1,0 +1,76 @@
+// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.
+const D = {
+  "bg": "#faf9f5",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Novidade",
+      "rotulo": "Anthropic · 9 nov 2026",
+      "titulo": "Chegou o Claude Fable 5.2",
+      "sub": "Modelo mais forte em código, raciocínio e imagens, e até 30% mais rápido."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O que é",
+      "titulo": "Fable e Mythos: o mesmo modelo",
+      "paragrafos": [
+        "A Anthropic anunciou em 9 de novembro o <b>Claude Fable 5.2</b> e o <b>Claude Mythos 5.2</b>. Segundo ela, são o mesmo modelo por trás.",
+        "O Fable tem proteções mais fortes em cibersegurança e biologia e por isso está <b>aberto a todos</b>. O Mythos é só para organizações verificadas."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "O que muda",
+      "titulo": "Na prática",
+      "itens": [
+        [
+          "⚡",
+          "Mais rápido",
+          "Respostas até 30% mais rápidas que o Fable 5.1"
+        ],
+        [
+          "💻",
+          "Melhor em código",
+          "FrontierCode 2.0: 49,1% contra 32,4% do Fable 5.1"
+        ],
+        [
+          "👁️",
+          "Raciocínio e visão",
+          "A Anthropic diz que também melhorou nesses pontos"
+        ],
+        [
+          "🛡️",
+          "Menos bloqueios",
+          "Cerca de 55% menos pedidos bloqueados que no Fable 5.1"
+        ]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Qual usar",
+      "titulo": "Comece pelo Opus 5.5",
+      "paragrafos": [
+        "Para a maioria das tarefas de código e de conhecimento, a Anthropic recomenda <b>começar pelo Claude Opus 5.5</b>.",
+        "Se precisar de mais força, suba para o Fable ou o Mythos. Se quiser mais economia, desça para o Sonnet 5.5 ou o Haiku 5.5."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Disponibilidade",
+      "selo": "Fable 5.2",
+      "cor": "var(--green)",
+      "titulo": "Quem já pode usar",
+      "paragrafos": [
+        "O Fable 5.2 está disponível hoje em todas as plataformas, incluindo AWS, Google Cloud e Microsoft Azure. Na API, o nome é <b>claude-fable-5-2</b>.",
+        "Assinantes de planos pagos elegíveis ganham de uma a três \"redefinições\" do Fable. No Pro e no Team padrão, o Fable pode usar até 50% do limite semanal. Países: a Anthropic não informou."
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Vai testar o Fable 5.2?",
+      "sub": "Conta nos comentários o que você pretende fazer com ele.",
+      "fonte": "Fonte: Anthropic (anthropic.com/claude-fable-and-mythos-5-2)"
+    }
+  ]
+};
+const POST = { bg: D.bg, slides: D.slides.map(K.nx) };
