@@ -1,0 +1,14 @@
+O Claude agora cria planilhas e quadros com você! 📊
+
+Em 10 de novembro, a Anthropic anunciou o Claude Sheets e o Claude Whiteboards, ambos em beta, e o Claude Data (o antigo Dashboards), que saiu do beta:
+📊 Sheets: planilhas com abas, fórmulas e listas suspensas a partir de um pedido
+🧠 Whiteboards: quadro compartilhado para a equipe organizar ideias com o Claude
+📈 Claude Data: painéis e histórias com dados das suas ferramentas
+🔌 Conectores interativos: apps como Adobe e Notion abrem dentro do Claude
+✅ Em todos os planos pagos, na web, no computador e no celular (países: a Anthropic não informou)
+
+Qual você vai testar primeiro? Conta nos comentários!
+Saiba mais em claude.com/resources/articles
+
+Fonte: Anthropic (claude.com/resources/articles) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb
