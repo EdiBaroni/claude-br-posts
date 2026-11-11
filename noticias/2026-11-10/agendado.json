@@ -1,8 +1,9 @@
 {
-  "agendado_em": "2026-11-10T23:07:00Z",
-  "horario_brasilia": "2026-11-10 20:45",
+  "agendado_em": "2026-11-11T00:12:00Z",
+  "horario_brasilia": "2026-11-10 21:25",
   "imagens_enviadas": 6,
   "imagens_no_metricool": 6,
-  "link_metricool": "https://app.metricool.com/planner/calendar?blogId=7628955&openWithPostUuid=8189995603582077880",
-  "commit_das_imagens": "e38ca7aeb756d79557d0e97d7318359669d411bd"
+  "link_metricool": "https://app.metricool.com/planner/calendar?blogId=7628955&openWithPostUuid=-9084920591147252331",
+  "commit_das_imagens": "4f4133d1bf11d4f79dc9b2cc7aea7c06851a6c9c",
+  "obs": "Republicado com rodapé só @claude.anthropic.br; o post das 20h45 foi apagado pela dona do perfil."
 }
