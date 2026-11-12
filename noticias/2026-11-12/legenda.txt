@@ -1,0 +1,14 @@
+Seus apps agora abrem dentro do Claude! 🔌
+
+Em 10 de novembro, a Anthropic anunciou os conectores interativos: o app de um parceiro abre ao lado da conversa (ou em tela cheia) e o Claude pode editar o que você abriu, com a sua aprovação.
+🎨 Parceiros de lançamento: Asana, Canva, Carta, Dropbox, monday.com, Smartsheet, Vercel e Webflow
+🔜 Em desenvolvimento: Figma, Harvey e Shopify
+🖼️ Exemplos: Adobe, Atlassian, Box, HubSpot e Notion
+✅ Em todos os planos, na web e no app de computador (celular: o anúncio não cita; países: a Anthropic não informou)
+🛡️ Administradores podem limitar as ferramentas de cada conector
+
+Qual app você abriria no Claude? Conta nos comentários!
+Saiba mais em claude.com/resources/articles
+
+Fonte: Anthropic (claude.com/resources/articles) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb

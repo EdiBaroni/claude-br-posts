@@ -1,0 +1,95 @@
+// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.
+const D = {
+  "bg": "#faf9f5",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Novidade",
+      "rotulo": "Anthropic · 10 nov 2026",
+      "titulo": "Seus apps agora abrem dentro do Claude",
+      "tela": "destaque",
+      "sub": "Com os conectores interativos, o Claude também mexe no que você abriu."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O que é",
+      "titulo": "Menos troca de aba",
+      "paragrafos": [
+        "Em 10 de novembro, a Anthropic anunciou os <b>conectores interativos</b>: apps de parceiros podem abrir dentro do Claude, ao lado da conversa ou em tela cheia.",
+        "Com o app aberto, você pede ao Claude para editar páginas, linhas ou arquivos que estão ali. Você aprova as ações, como em qualquer conector."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "Quais apps",
+      "titulo": "Parceiros de lançamento",
+      "itens": [
+        [
+          "🎨",
+          "Canva e Webflow",
+          "Entre os parceiros de lançamento"
+        ],
+        [
+          "🗂️",
+          "Asana, monday.com e Smartsheet",
+          "Gestão de tarefas e projetos"
+        ],
+        [
+          "📦",
+          "Dropbox, Carta e Vercel",
+          "Também no lançamento"
+        ],
+        [
+          "🔜",
+          "Em desenvolvimento",
+          "Figma, Harvey e Shopify"
+        ]
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "Exemplos de uso",
+      "titulo": "O que dá para fazer",
+      "itens": [
+        [
+          "🖼️",
+          "Adobe",
+          "Edição de fotos e tarja em PDF"
+        ],
+        [
+          "📝",
+          "Notion e Atlassian",
+          "Documentos, bancos de dados e Confluence"
+        ],
+        [
+          "📊",
+          "HubSpot",
+          "Tarefas do funil de vendas"
+        ],
+        [
+          "🔍",
+          "Box",
+          "Comparar versões de um arquivo"
+        ]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Disponibilidade",
+      "selo": "Todos os planos",
+      "cor": "var(--green)",
+      "titulo": "Quem já pode usar",
+      "paragrafos": [
+        "Segundo a Anthropic, está em <b>todos os planos</b>, na web e no app de computador. O anúncio não cita o celular.",
+        "Aparece quando a conta passa para a nova experiência do Claude (que junta chat e Cowork) ou quando a organização ativa. Administradores podem limitar as ferramentas de cada conector. Países: a Anthropic não informou."
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Qual app você abriria no Claude?",
+      "sub": "Conta nos comentários qual ferramenta você mais usa no dia a dia.",
+      "fonte": "Fonte: Anthropic (claude.com/resources/articles)"
+    }
+  ]
+};
+const POST = { bg: D.bg, rodape: "@claude.anthropic.br", slides: D.slides.map(K.nx) };
