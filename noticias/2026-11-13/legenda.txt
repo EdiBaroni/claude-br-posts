@@ -1,0 +1,14 @@
+O Claude agora pode entrar nas suas reuniões! 🎥
+
+Em 12 de novembro, a Anthropic lançou em beta o Claude Meetings: o Claude entra na chamada como participante visível, acompanha a conversa e trabalha junto com o time.
+💬 Responde perguntas por voz ou no chat
+📝 Faz anotações e lista tarefas, com resumo antes de a chamada terminar
+🧩 Cria documentos e quadros enquanto o time edita
+🔒 Salva transcrição e resumo, mas não o áudio
+✅ Em beta nos planos Team e Enterprise, no Google Meet (países e idiomas: a Anthropic não informou)
+
+Você deixaria o Claude entrar nas suas reuniões? Conta nos comentários!
+Saiba mais em claude.com/resources/articles/claude-meetings
+
+Fonte: Anthropic (claude.com/resources/articles/claude-meetings) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb
