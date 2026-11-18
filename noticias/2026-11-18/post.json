@@ -1,0 +1,12 @@
+{
+  "bg": "#faf9f5",
+  "telas": {},
+  "slides": [
+    { "tipo": "capa", "selo": "Atualização", "rotulo": "Anthropic · 17 nov 2026", "titulo": "Claude Desktop: escolha quando atualizar", "sub": "Agora dá para escolher entre o canal Stable e o canal Latest." },
+    { "tipo": "texto", "rotulo": "O que é", "titulo": "Dois ritmos de atualização", "paragrafos": ["Em 17 de novembro, a Anthropic avisou que o app Claude Desktop ganhou <b>canais de atualização</b>: você escolhe qual versão recebe quando o app se atualiza.", "A escolha é sua: mais estabilidade ou novidades mais cedo."] },
+    { "tipo": "lista", "rotulo": "Os canais", "titulo": "Stable ou Latest?", "itens": [["🛡️", "Stable (padrão)", "Versões menos frequentes, depois de mais testes"], ["⚡", "Latest", "Uma versão nova por dia, mais ou menos"], ["⏳", "Na prática", "No Stable, correções e novidades chegam alguns dias depois"], ["⚠️", "Atenção", "O Latest pode ser menos estável"]] },
+    { "tipo": "lista", "rotulo": "Como trocar", "titulo": "Passo a passo", "itens": [["1️⃣", "Abra os Ajustes", "Vá em Settings > Desktop app"], ["2️⃣", "Escolha o canal", "Em Release channel, marque Latest ou Stable"], ["3️⃣", "Atualize agora", "Claude > Check for Updates (Mac) ou Help > Check for Updates (Windows)"]] },
+    { "tipo": "texto", "rotulo": "Disponibilidade", "selo": "Todos os planos", "cor": "var(--green)", "titulo": "Quem pode usar", "paragrafos": ["Em <b>todos os planos</b>, no <b>Mac e no Windows</b> (precisa do Claude Desktop 4.29.0 ou mais novo). Não aparece no Linux, em instalação pela Microsoft Store nem em computadores com política de TI.", "<b>Cuidado:</b> voltar para o Stable não desfaz a versão. Você fica na atual até sair uma versão Stable mais nova, sem receber correções de segurança urgentes nesse meio-tempo. Países: a Anthropic não informou."] },
+    { "tipo": "final", "titulo": "Stable ou Latest: qual é o seu?", "sub": "Você prefere estabilidade ou novidade todo dia? Conta nos comentários.", "fonte": "Fonte: Anthropic (support.claude.com)" }
+  ]
+}

@@ -1,0 +1,14 @@
+Agora você escolhe quando o Claude Desktop atualiza! 🖥️
+
+Em 17 de novembro, a Anthropic avisou que o app Claude Desktop ganhou canais de atualização:
+🛡️ Stable (padrão): versões menos frequentes, depois de mais testes
+⚡ Latest: uma versão nova por dia, mais ou menos, mas pode ser menos estável
+⚙️ Para trocar: Settings > Desktop app > Release channel
+✅ Em todos os planos, no Mac e no Windows (não aparece no Linux, na Microsoft Store nem com política de TI)
+⚠️ Voltar para o Stable não desfaz a versão: você espera uma Stable mais nova e fica sem correções de segurança urgentes até lá
+
+Stable ou Latest: qual é o seu? Conta nos comentários!
+Saiba mais em support.claude.com
+
+Fonte: Anthropic (support.claude.com) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb
