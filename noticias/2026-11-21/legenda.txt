@@ -1,0 +1,14 @@
+O Claude agora pode usar o seu computador, em beta! 🖥️
+
+Em 20 de novembro, a Anthropic anunciou o computer use para os planos Team e Enterprise: o Claude vê a tela e trabalha nos aplicativos que você permitir, clicando e digitando.
+🔑 Desligado por padrão: o Owner ou o Primary Owner da organização libera
+✅ Cada pessoa ativa no Claude Desktop e o administrador pode bloquear apps ou permitir só uma lista
+💻 Claude Desktop para Mac (macOS 14 ou mais novo) e Windows; também dá para pedir pela web e pelo celular
+⚠️ Não há isolamento (sandbox) entre o Claude e os apps, e as capturas de tela ficam salvas com a conversa
+🚫 Não vale para tarefas do Cowork nem para o Claude Code
+
+Você deixaria o Claude usar seu computador? Conta nos comentários!
+Saiba mais em support.claude.com
+
+Fonte: Anthropic (support.claude.com) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb

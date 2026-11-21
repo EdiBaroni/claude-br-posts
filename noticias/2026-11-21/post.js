@@ -1,0 +1,76 @@
+// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.
+const D = {
+  "bg": "#faf9f5",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Novidade",
+      "rotulo": "Anthropic · 20 nov 2026",
+      "titulo": "Claude pode usar o seu computador, em beta",
+      "sub": "Computer use chega aos planos Team e Enterprise, desligado por padrão."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O que é",
+      "titulo": "O Claude vê a tela e trabalha nos apps",
+      "paragrafos": [
+        "Em 20 de novembro, a Anthropic anunciou o <b>computer use</b> (uso do computador) em <b>beta</b>, isto é, ainda em fase de testes, para os planos Team e Enterprise.",
+        "Com ele, o Claude vê a tela do usuário e trabalha nos aplicativos de computador que a pessoa permitir, clicando e digitando."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "Como funciona",
+      "titulo": "Quem liga e quem usa",
+      "itens": [
+        [
+          "🔑",
+          "O administrador libera",
+          "Só o Owner ou o Primary Owner liga, em Organization settings"
+        ],
+        [
+          "🖥️",
+          "Cada pessoa ativa",
+          "Em Enable computer use, no Claude Desktop"
+        ],
+        [
+          "✅",
+          "Você escolhe os apps",
+          "O admin bloqueia apps ou libera só uma lista"
+        ],
+        [
+          "📱",
+          "Web e celular",
+          "Dá para pedir de lá, com o Claude Desktop aberto no computador"
+        ]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Segurança",
+      "titulo": "Leia isto antes de ativar",
+      "paragrafos": [
+        "Segundo a Anthropic, o computer use <b>não tem isolamento (sandbox)</b> entre o Claude e os aplicativos: o conteúdo da tela, como páginas e e-mails, pode causar ações não intencionais.",
+        "As capturas de tela ficam salvas com a conversa e podem conter informação pessoal ou confidencial."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Disponibilidade",
+      "selo": "Team e Enterprise",
+      "cor": "var(--green)",
+      "titulo": "Quem já pode usar",
+      "paragrafos": [
+        "Beta nos planos <b>Team e Enterprise</b>, em liberação gradual e desligado por padrão. Funciona no Claude Desktop para Mac (macOS 14 ou mais novo) e Windows.",
+        "Não está disponível em tarefas do Cowork nem no Claude Code, nem em organizações com configurações como HIPAA-ready ou chaves de criptografia próprias. Países, preço e limites: a Anthropic não informou."
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Você deixaria o Claude usar seu computador?",
+      "sub": "Conta nos comentários para qual tarefa você usaria.",
+      "fonte": "Fonte: Anthropic (support.claude.com)"
+    }
+  ]
+};
+const POST = { bg: D.bg, rodape: "@claude.anthropic.br", slides: D.slides.map(K.nx) };
