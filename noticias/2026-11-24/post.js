@@ -1,0 +1,85 @@
+// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.
+const D = {
+  "bg": "#faf9f5",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Novidade",
+      "rotulo": "Anthropic · 23 nov 2026",
+      "titulo": "Claude Ship: o Claude revisa e corrige seu código",
+      "sub": "Do pedido de revisão até a decisão de aprovar, com regras definidas pelo time."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O que é",
+      "titulo": "Menos espera entre escrever e publicar",
+      "paragrafos": [
+        "Em 23 de novembro, a Anthropic apresentou o <b>Claude Ship</b>. Quando uma pessoa programadora termina uma mudança, ela abre um <b>pull request</b>: um pedido para que o time revise e aprove o código.",
+        "O Claude Ship pode revisar esse pedido, corrigir problemas e aprovar o que a política do time permitir."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "As três peças",
+      "titulo": "O que vem no pacote",
+      "itens": [
+        [
+          "🔍",
+          "Code Review",
+          "Revisa o código em vários ângulos. Já fora do beta"
+        ],
+        [
+          "🧹",
+          "PR Steward (beta)",
+          "Cuida de testes que falham e conflitos. Não aprova"
+        ],
+        [
+          "✅",
+          "Claude Approvals (beta)",
+          "Aprova mudanças simples, pelas regras do time"
+        ],
+        [
+          "💻",
+          "Comando /ship",
+          "No Claude Code, abre o pedido"
+        ]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Como começar",
+      "titulo": "Quem programa e quem administra",
+      "paragrafos": [
+        "<b>Programadores:</b> atualizem o Claude Code e rodem o comando <b>/ship</b> numa mudança. O recurso chega ao Claude Code e ao app de computador a partir de 23 de novembro.",
+        "<b>Times:</b> o administrador liga por repositório no GitHub e pode começar por um só. A Anthropic recomenda testar a aprovação em modo observação antes de exigi-la."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Atenção",
+      "titulo": "Custo e limites",
+      "paragrafos": [
+        "O uso é cobrado por tokens, então ligar pode aumentar a conta. Administradores podem definir limites de gasto.",
+        "A própria Anthropic avisa que o Claude Ship usa IA e <b>pode deixar passar erros e falhas de segurança</b>. Regras do repositório e verificações obrigatórias continuam valendo."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Disponibilidade",
+      "selo": "Team e Enterprise",
+      "cor": "var(--green)",
+      "titulo": "Quem já pode usar",
+      "paragrafos": [
+        "Segundo a Anthropic, nos planos <b>Team e Enterprise</b>, para repositórios no <b>GitHub</b>. Não está disponível para organizações com retenção zero de dados, configuração HIPAA ou chaves de criptografia próprias.",
+        "Pro, Max e Free: a Anthropic não informou. Países e preços por assento: também não informou."
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Você deixaria o Claude aprovar código?",
+      "sub": "Conta nos comentários se confiaria nisso no seu time.",
+      "fonte": "Fonte: Anthropic (claude.com/resources/articles)"
+    }
+  ]
+};
+const POST = { bg: D.bg, rodape: "@claude.anthropic.br", slides: D.slides.map(K.nx) };

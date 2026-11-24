@@ -1,0 +1,15 @@
+O Claude agora revisa, corrige e pode até aprovar código! 💻
+
+Em 23 de novembro, a Anthropic apresentou o Claude Ship, para times que usam GitHub. Quando alguém abre um pull request (o pedido para revisar uma mudança no código), o Claude ajuda a levar esse pedido até o fim:
+🔍 Code Review: revisa o código em vários ângulos
+🧹 PR Steward (beta): cuida de testes que falham e conflitos, sem aprovar nem juntar o código
+✅ Claude Approvals (beta): aprova mudanças simples, seguindo regras escritas pelo time
+⌨️ Comando /ship no Claude Code para começar
+✅ Nos planos Team e Enterprise (Pro, Max e Free: a Anthropic não informou)
+⚠️ A própria Anthropic avisa que pode deixar passar erros e falhas de segurança, e o uso é cobrado por tokens
+
+Você deixaria o Claude aprovar código no seu time? Conta nos comentários!
+Saiba mais em claude.com/resources/articles
+
+Fonte: Anthropic (claude.com/resources/articles) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb
