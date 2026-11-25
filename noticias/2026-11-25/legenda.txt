@@ -1,0 +1,15 @@
+Agora um artefato do Claude pode virar app no seu computador! 🖥️
+
+Em 24 de novembro, a Anthropic anunciou o Install as app, em beta no Claude para Mac e Windows: a criação feita no chat ganha ícone próprio, abre em janela própria e pode ser compartilhada.
+💬 Descreva o app, teste como artefato e clique em Install as app
+🔔 Pode enviar notificações e ficar na barra de menu
+🔌 Pode usar o Claude e seus conectores, contando no limite do seu plano
+🌐 É preciso estar online e logado no Claude
+⚠️ O acesso total (abrir programas e mexer em arquivos) exige cuidado: a Anthropic não revisa os apps antes da instalação
+✅ Em todos os planos (celular, web e países: a Anthropic não informou)
+
+Que app você criaria? Conta nos comentários!
+Saiba mais em claude.com/resources/articles
+
+Fonte: Anthropic (claude.com/resources/articles) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb
