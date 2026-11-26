@@ -1,0 +1,16 @@
+Seu resumo mensal do Claude saiu do beta! 📊
+
+Em 24 de novembro, a Anthropic avisou que o resumo mensal (chamado Reflect) está disponível nos planos Free, Pro, Max e Ultra. Ele mostra:
+📅 Seus dias e horários mais ativos e o total de conversas
+🧩 Para que você usou o Claude, com porcentagens por tema
+💡 Ideias de coisas para tentar, como copiar um prompt
+🎯 Metas com lembretes (só em Pro, Max e Ultra)
+⚙️ Onde fica: Settings > Wellbeing > Reflect, na web e no computador; no celular, menu > Settings > Reflect
+🔒 Só é criado quando você abre a página, precisa da memória ligada e deixa de fora conversas anônimas; dá para apagar os resumos salvos sem apagar as conversas
+⚠️ Não está nos planos Team e Enterprise, e a liberação é gradual
+
+Você olharia o seu resumo? Conta nos comentários!
+Saiba mais em support.claude.com
+
+Fonte: Anthropic (support.claude.com) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb

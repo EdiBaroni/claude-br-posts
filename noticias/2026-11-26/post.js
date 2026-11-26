@@ -1,0 +1,103 @@
+// Gerado por robo/scripts/gerar-carrossel.mjs a partir do post.json. Não edite à mão.
+const D = {
+  "bg": "#faf9f5",
+  "slides": [
+    {
+      "tipo": "capa",
+      "selo": "Novidade",
+      "rotulo": "Anthropic · 24 nov 2026",
+      "titulo": "Seu resumo mensal do Claude saiu do beta",
+      "sub": "Veja os assuntos do mês, seus horários e ideias do que testar a seguir."
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "O que é",
+      "titulo": "Um espelho do seu mês com o Claude",
+      "paragrafos": [
+        "O resumo mensal, chamado <b>Reflect</b> no app, mostra os temas em que você passou tempo, quando costuma usar o Claude e onde pode experimentar algo novo.",
+        "Em 24 de novembro, a Anthropic avisou que ele saiu do beta, a fase de testes, nos planos Free, Pro, Max e Ultra."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "O que aparece",
+      "titulo": "Dentro do resumo",
+      "itens": [
+        [
+          "📅",
+          "Seu tempo com o Claude",
+          "Dia e hora mais ativos, total de conversas e um gráfico"
+        ],
+        [
+          "🧩",
+          "Para que você usou",
+          "Divisão dos temas, com porcentagens"
+        ],
+        [
+          "💡",
+          "Coisas para tentar",
+          "Cartões com ideias, como copiar um prompt"
+        ],
+        [
+          "🎯",
+          "Metas",
+          "Só em Pro, Max e Ultra: você escreve uma meta e o Claude agenda um lembrete"
+        ]
+      ]
+    },
+    {
+      "tipo": "lista",
+      "rotulo": "Como abrir",
+      "titulo": "Onde fica",
+      "itens": [
+        [
+          "💻",
+          "Web e computador",
+          "Settings > Wellbeing, depois View em Reflect"
+        ],
+        [
+          "📱",
+          "iPhone e Android",
+          "Menu no canto, sua foto, Settings, Reflect"
+        ],
+        [
+          "🗓️",
+          "Período",
+          "Mês passado por padrão, ou 3 meses, 6 meses e 1 ano"
+        ],
+        [
+          "🔄",
+          "Salvo",
+          "O resumo fica guardado e aparece em todos os aparelhos"
+        ]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Privacidade",
+      "titulo": "O que fica de fora e como apagar",
+      "paragrafos": [
+        "O resumo só é criado quando você abre a página e exige a memória ligada. Ficam de fora conversas anônimas, de saúde e de finanças pessoais.",
+        "Para apagar, use <b>Delete stored reflections</b> no fim da página. Isso remove os resumos salvos, mas não apaga suas conversas."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "rotulo": "Disponibilidade",
+      "selo": "Free, Pro, Max, Ultra",
+      "cor": "var(--green)",
+      "titulo": "Quem pode ver",
+      "paragrafos": [
+        "Nos planos <b>Free, Pro, Max e Ultra</b>, na web, no Claude Desktop e no app de celular. <b>Não está</b> nos planos Team e Enterprise. A liberação é gradual, então pode ainda não aparecer na sua conta.",
+        "A Anthropic diz que vale para todas as regiões onde o Claude é oferecido. Idiomas: não informado."
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Você olharia o seu resumo?",
+      "sub": "Conta nos comentários o que espera encontrar nele.",
+      "fonte": "Fonte: Anthropic (support.claude.com)"
+    }
+  ]
+};
+const POST = { bg: D.bg, rodape: "@claude.anthropic.br", slides: D.slides.map(K.nx) };
