@@ -1,0 +1,15 @@
+O Claude agora envia e busca arquivos nos seus apps conectados! 📎
+
+Em 24 de novembro, a Anthropic anunciou, em beta, a transferência de arquivos com conectores:
+⬆️ O Claude envia um arquivo para um app conectado, como uma apresentação feita por ele para a nuvem
+⬇️ O Claude salva um arquivo que o app oferece, como um contrato para revisar junto
+🔌 O app precisa estar no diretório de conectores e ter suporte a arquivos; conectores personalizados não funcionam
+✅ Pro, Max e Ultra, em liberação gradual; Team e Enterprise só depois que o dono da organização ligar; Free virá depois, sem data
+⚠️ A Anthropic avisa que um arquivo de um app pode conter texto escrito para enganar o Claude: conecte só apps de confiança
+📏 Até 500 MB por arquivo
+
+Que arquivo você mandaria? Conta nos comentários!
+Saiba mais em support.claude.com
+
+Fonte: Anthropic (support.claude.com) · Resumo e adaptação não oficial
+#Claude #Anthropic #InteligenciaArtificial #ZeniteWeb

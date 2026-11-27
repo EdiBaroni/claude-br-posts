@@ -1,0 +1,13 @@
+{
+  "bg": "#faf9f5",
+  "telas": {},
+  "slides": [
+    { "tipo": "capa", "selo": "Novidade", "rotulo": "Anthropic · 24 nov 2026", "titulo": "O Claude agora envia e busca arquivos nos seus apps", "sub": "Em beta, com conectores que aceitam arquivos." },
+    { "tipo": "texto", "rotulo": "O que é", "titulo": "Arquivos indo e vindo dos apps conectados", "paragrafos": ["Em 24 de novembro, a Anthropic anunciou, em <b>beta</b> (fase de testes), que o Claude pode <b>enviar um arquivo</b> para um app conectado e <b>salvar um arquivo</b> que o app oferece.", "A página dá dois exemplos: mandar uma apresentação feita pelo Claude para um armazenamento na nuvem e puxar um contrato para revisar junto com ele."] },
+    { "tipo": "lista", "rotulo": "Como usar", "titulo": "Passo a passo", "itens": [["🔌", "Conecte o app", "Pelo diretório de conectores, em claude.ai/directory"], ["📎", "Envie o arquivo", "Anexe um arquivo, ou use um que o Claude criou"], ["📂", "Diga onde vai", "Por exemplo: coloque isto na minha pasta Recibos"], ["⬇️", "Para buscar", "Peça o arquivo, como o relatório do 3º trimestre da pasta Finanças"]] },
+    { "tipo": "pedido", "titulo": "Peça algo assim ao Claude", "pedido": "Coloque este arquivo na minha pasta Recibos.", "sub": "Exemplo parecido com o da Anthropic. O Claude pede sua aprovação antes de enviar o primeiro arquivo a cada app." },
+    { "tipo": "texto", "rotulo": "Cuidados", "titulo": "Confie só em apps que você conhece", "paragrafos": ["O app precisa estar no diretório de conectores e ter suporte a arquivos feito pelo desenvolvedor. <b>Conectores personalizados e servidores MCP próprios não funcionam.</b>", "A Anthropic avisa: um arquivo vindo de um app pode conter texto escrito para enganar o Claude. Conecte só apps em que você confia. O limite é de 500 MB por arquivo."] },
+    { "tipo": "texto", "rotulo": "Disponibilidade", "selo": "Pro, Max e Ultra", "cor": "var(--green)", "titulo": "Quem já pode usar", "paragrafos": ["Em beta, em liberação gradual nos planos <b>Pro, Max e Ultra</b>, na web, no Claude Desktop e no app de celular, e também no Claude Code. No Team e no Enterprise, o dono da organização precisa ligar. O plano Free \"virá depois\", sem data.", "Países: a Anthropic não informou." ] },
+    { "tipo": "final", "titulo": "Que arquivo você mandaria?", "sub": "Conta nos comentários qual app você conectaria primeiro.", "fonte": "Fonte: Anthropic (support.claude.com)" }
+  ]
+}
